@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+
+}
+body{
+  background: #F2F1F9;   
+}
+.App {
+     
+  }
+.container-heder h1{
+  margin-left: 63px;
+}  
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin:2px 66px 0px 66px;
+}
+.head-chiled{
+  display: flex;
+}
+.head .curser{
+  transform: rotate(-90deg);
+  
+}
+.allFile{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .container{
+    display: flex;
+    margin: 40px 50px;
+
+  }
+  .card{
+  width: 344px;
+  height: 520px;
+  border-radius: 10px 10px 10px 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 15px 2px #0000001A;
+  }
+  
+.profileImag{
+  display: flex;
+  justify-content: center;
+  margin-top: -65px;
+}
+
+.profileBackgroundImag{
+  position: relative;
+
+}
+.Iconss{
+  position: absolute;
+  top:20px;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.profileImag{
+  position: relative;
+}
+.profileImages{
+  position: absolute;
+}
+.title{
+  margin-top: 145px;
+}
+
+.profileName{
+  display: flex;
+  justify-content: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28.8px;
+  color: #212844;
+}
+.profileRole{
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
+  font-weight: 300;
+  color: #666666;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 50;
+  line-height: 16.8px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.btn .button{
+  text-align: center;
+  margin: 5px 0px;
+  padding: 8px;
+  width: 150px;
+  border:none;
+  border-radius: 30px;
+  background-color: #6560F0;
+  text-decoration: none;
+}
+.btn .button a{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+  }
+  
+.about, .address, .company{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 22px;
+  width: 296px;
+  height: 36px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #DDDDDD
+}
+.about img, .address img, .company img{
+  width: 16px;
+  height: 16px;
+}
+.about p, .address p{
+   padding-right: 185px;
+
+}
+.company p{
+  padding-right: 165px;
+}
+
+/* -------media-qury------ */
+@media (max-width : 768px){
+  body{
+    display: flex;
+    justify-content: center;
+  }
+}
