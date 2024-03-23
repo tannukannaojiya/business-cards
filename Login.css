@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  
+  /* colomn 1------------------------------------ */
+  .container{
+    
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10%;
+    right: 20%;
+    max-width: 850px;
+    width: 100%;
+    height: 500px;
+  
+  }
+  .registation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-1{
+    width:425px;
+    height: 500px;
+    color: #FFFFFF;
+    background: url("Logo/Group.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .heading{
+    margin: 150px 40px;
+  }
+  .heading h1{
+    font-size: 32px;
+    font-weight: 440;  
+  }
+  .heading .first{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .heading .second{
+    font-size: 50px;
+    padding-left: 10px;
+  }
+  .heading p{
+    margin-top: 10px;
+    
+  }
+  /* --------col-2-------- */
+  .col-2{
+    width:425px;
+    height: 500px;
+    text-align: center;
+    border: 1px solid #DEDFEE;
+  }
+  .col-2 .col-2-imag{
+    margin: 30px 0px; 
+  }
+  
+  .col-2 .login{
+    margin-right: 240px;
+   }
+  
+  .email, .password{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 6px;
+    border: 1px solid #DEDFEE;
+    border-radius: 8px;
+    padding-left: 40px;
+    text-align: center
+  }
+  .email{
+    margin: 10px 0px 10px 85px;
+  }
+  .password{
+    margin: 10px 0px 10px 85px;
+  }
+  .password input{
+    border: none;
+    margin-right: 15px;
+  }
+  .password .lock{
+    margin-right: 5px;
+  }
+  .password .eye{
+    margin-right: 40px;
+  }
+  
+  .email input{
+    margin-right: 75px;
+    border: none;
+  }
+  .email img{
+    margin-right: 5px;
+  }
+  
+  .check-group{
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 10px;
+  }
+  .check-group .check-box{
+    margin-left: 15px;
+  }
+  .check-group .forgot{
+    margin-right: 10px;
+  }
+  
+  .largLoginBtn{
+    background-color: #6560F0;
+    width: 60%;
+    height: 37px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  
+  .othentication {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 7px;
+    
+  }
+  .othentication .google{
+    margin-right: 37px;
+  }
+  
+  .othentication .facebook{
+    margin-right: 10px;
+  
+  }
+  
+  .google, .facebook{
+   width:110px ;
+   border-radius: 8px;
+    border: 1px solid #DEDFEE; 
+    background-color: #DEDFEE;
+  
+  }
+  .othentication button{
+    padding: 10px;
+    border: none;
+    background-color: #DEDFEE;
+    text-align: center;
+    align-items: center;
+  }
+  .othentication img{
+    width: 15px;
+    height: 15px;
+  }
+  
+  hr{
+    width: 100%;
+    color: #9397BB;
+    height: 0.001px;
+    margin: 0px 50px; 
+    margin: 10px; 
+  }
+  
+  .hrr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 85px
+  }
+  
+  .orr{
+    margin-bottom: 5px;
+  }
+  
+  .col-2 p{
+    margin-top: 90px;
+    size: 2px;
+    color: #9397BB;
+    
+  }
+  
+  /* --------media---- */
+  @media (max-width : 768px){
+  
+  
+    /* .registation{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      scroll-behavior: smooth;
+      margin-left: 200px;
+      
+    } */
+  
+    .col-1{
+      display: none;
+      
+    }
+    .col-2{
+      max-width: 700px;
+      margin-top: 0px;
+      margin-left: 200px;
+      text-align: center;
+      
+    }
+  }
+  
+  
+  

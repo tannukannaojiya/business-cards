@@ -7,9 +7,7 @@
 body{
   background: #F2F1F9;   
 }
-.App {
-     
-  }
+
 .container-heder h1{
   margin-left: 63px;
 }  
@@ -31,7 +29,7 @@ body{
     flex-wrap: wrap;
 
   }
-  .container{
+  .container-profile{
     display: flex;
     margin: 40px 50px;
 
@@ -123,7 +121,6 @@ body{
   height: 36px;
   border-radius: 4px 0px 0px 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
   border: 1px solid #DDDDDD
 }
 .about img, .address img, .company img{

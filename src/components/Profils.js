@@ -9,11 +9,12 @@ import cornerIcon from "../icons/Group.png";
 
 
 
+
 const Profils = (props) => {
   return (
     
     <div>
-    <div className='container'>
+    <div className='container-profile'>
     
     <div className='card'>
     <div className='profileBackgroundImag'>
