@@ -52,12 +52,12 @@ export default function Form() {
        
         <button className='largLoginBtn'>Log In</button>
         
-        <div className='othentication'>
-        <div className='google'>
-        <img src={google} alt='logo'/>
+        <div className='othentication-1'>
+        <div className='google-1'>
+        <img src={google} alt='logo' className="google-log"/>
         <button className='googleimg'>Google</button>   
         </div> 
-        <div className='facebook'>
+        <div className='facebook-1'>
         <img src={facebook} alt='facebook'/>
         <button className='facebockimg'>Facebook</button> 
         </div>

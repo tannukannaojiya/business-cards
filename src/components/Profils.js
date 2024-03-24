@@ -15,7 +15,6 @@ const Profils = (props) => {
     
     <div>
     <div className='container-profile'>
-    
     <div className='card'>
     <div className='profileBackgroundImag'>
       <img src={props.bgImage} alt = ""  className="Imagess" />

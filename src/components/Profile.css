@@ -12,7 +12,7 @@ body{
   margin-left: 63px;
 }  
 
-.head{
+.head-1{
   display: flex;
   justify-content: space-between;
   margin:2px 66px 0px 66px;
@@ -20,7 +20,10 @@ body{
 .head-chiled{
   display: flex;
 }
-.head .curser{
+.head-chiled a{
+  text-decoration: none;
+}
+.head-1 .curser{
   transform: rotate(-90deg);
   
 }

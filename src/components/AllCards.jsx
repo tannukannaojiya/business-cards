@@ -9,14 +9,17 @@ const AllCards = () => {
     <div className='main'>
      <div className="container-heder">
     <h1>Business Card</h1>
-      <div className="head">
+      <div className="head-1">
       <div className="head-chiled">
       <p><a href="">Livileads</a></p>
       <img src={downArrow} alt="" className="curser"/>
       <p>Business Card</p>
+      <img src={downArrow} alt="" className="curser"/>
+      
+      <p>Add Card</p>
       </div>
       <img src={addCardImg} alt=""/>
-
+      
       </div>
     </div>
 

@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #F2F1F9;
+
+}
+.Jobform-container{
+    max-width: 1120px;
+    height: 580px;
+    margin-left: 25px;
+    width: 100%;
+}
+.jobform-heading h1{
+    /* Width:150px;
+    Height:29px; */
+    margin: 10px 0px 10px 0px;
+    color: #212844;
+}
+.jobform-heading-content{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+.jobform-heading-content p{
+    height: 18px;
+    color: #666666;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+
+}
+.jobform-heading-content a{
+    text-decoration: none;
+}
+.head{
+    margin: 10px 0px;
+   
+}
+.head h2 p{
+    margin: 15px 0px;
+
+}
+.head h2{
+    color: #212844;
+}
+.head-paira{
+    color:#666666 ;
+}
+.addImage-content{
+    display: flex;
+    align-items: center;
+}
+.addImage h3{
+    color: #212844;
+    margin: 10px 0px;    
+}
+.fa{
+    width: 162px;
+    height: 77px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px 2px #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+        
+}
+.addDetail h3{
+    margin: 10px 0px;
+    width: 100%;
+}
+.addDetail-colum{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+ .colum-div input{
+    width: 388px;
+    height: 48px;
+    border: 1px solid #DEDFEE;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 15px;
+    color: #9397BB;
+
+}
+label{
+    margin: 10px 0px 10px 0px;
+    color: #212844;
+
+}
+.colum-div{
+    display: flex;
+    flex-direction: column;
+
+}
+.colum-2 {
+    margin-left: 50px;
+
+}
+.addressDetails h3{
+    margin: 10px 0px;
+}
+textarea{
+    border: 1px solid #DEDFEE;
+    border-radius: 8px;
+    resize:none;
+    padding: 10px 0px 0px 10px;
+    width: 824px;
+    
+}
+button{
+    width: 162px;
+    height: 39px;
+    margin: 15px 0px 40px 0px;
+    border-radius: 8px;
+    border: 1px solid #DEDFEE;
+
+}
+.jobFormBtn{
+    margin: 10px 0px 20px 0px;
+    
+}
+.btn-1{
+    background: #6560F0;
+    color: #FFFFFF;
+}
+.btn-2{
+    background: #FFFFFF;
+    color: #9397BB;
+    margin-left: 20px;
+}
+
+/* media-query-------- */
+/* Phone */
+@media only screen and (max-width:320px){
+    .Jobform-container{
+        margin-left: 50px;   
+    }
+    .addDetail-colum{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    input{
+        width: 258px;
+        height: 28px;
+        border-radius: 6px;
+    }
+    textarea{
+        width: 260px;
+    }
+    .colum-2 {
+        margin-left: 0px;
+    }
+    .jobFormBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        width: 120px;
+        height: 45px;
+    }
+    .btn-2{
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+    .btn-1{
+        margin-right: 80px;
+    }
+
+}
+@media only screen and (min-width:321px) and (max-width : 768px){
+    .Jobform-container{
+        margin-left: 60px;   
+    }
+    .addDetail-colum{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    textarea{
+        width: 390px;
+    }
+    .colum-2 {
+        margin-left: 0px;
+    }
+}
